@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Quicksand:wght@300;400;600;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,500;1,700;1,900&display=swap');
+
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: -3;
+
+  }
+
+.hero{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.79 ), rgba(0, 0, 0, 0.6));
+    min-height: 100vh; 
+    z-index: 2;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar img{
+    height: 70px;
+}
+.navbarLinks{
+    display: flex;
+    gap: 3em;
+}
+
+.navbarLinks a{
+text-decoration: none;
+color: white;
+
+
+}
+.navbarBtn{
+    display: flex;
+    gap: 1.4rem;
+}
+.navbarBtn a{
+    text-decoration: none;
+color: white;
+border: 1px solid #73340d;
+padding: 10px 30px;
+border-radius: 10px;
+font-family: 'Quicksand', sans-serif;
+font-weight: 600;
+box-shadow: 5px 5px 20px 10px rgba(243, 100, 100, 0.349);
+
+}
+/* hero page------ */
+
+.heroPage{
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+}
+.heroPageInfo{
+color: white;
+display: flex;
+flex-direction: column;
+gap: 1.1em;
+}
+.heroPageInfo span{
+color: #F66924;
+
+}
+.heroPageInfo h2{
+    font-size: 2.2em;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    display: inline;
+}
+.heroPageInfo p{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Quicksand', sans-serif;
+font-weight: 600;
+}
+/* //////////////////// */
+
+
+.heroPage a{
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+font-weight: 600;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #612f10;
+    padding: 1rem 4rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 10px rgba(243, 100, 100, 0.349);
+
+}
+.heroPageBtn {
+    display: flex;
+    gap: 2em;
+}
+@media (min-aspect-ratio:16/9){
+    #myVidio{
+width: 100%;
+height: auto;
+
+    }
+
+}
+@media (max-aspect-ratio:16/9){
+    #myVidio{
+width: auto;
+height: 100%;
+
+    }
+
+}
+
+
+/* all data/////////////// */
+
+
+
+/* history////////////// */
+
+/* look */
+
+.video-container{
+display: flex; 
+flex-direction: column;   
+justify-content: center;
+width: 100%;
+align-items: center;
+padding: 2rem 0rem;
+
+}
+.video-container p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+
+    color: rgba(255, 255, 255, 0.799);
+
+padding-bottom: 20px;
+
+}
+.video-container p span{
+    color: #73340d;
+    font-size: 2rem;
+
+}
+
+  .vidio {
+    border-radius: 5%;
+    width: 820px;
+    height: 540px;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.349);
+    transition: transform 0.3s ease-in-out;
+
+
+  }
+  
+  .vidio:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+
+.allData{
+    background: linear-gradient(to right, #FF512F,#000000f1); 
+    background-size: 400% 400%;
+  animation: gradientMove 15s infinite;
+
+}
+@keyframes gradientMove {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.history{
+    display: flex;
+    gap: 3em;
+    color: white;
+    align-items: center;
+    margin-bottom: 10rem;
+    padding-top: 10rem;
+    
+}
+.history h3{
+   font-size: 3.5rem;
+   font-weight: 700;
+   font-family: 'Quicksand', sans-serif;
+}
+.history p{
+   font-size: 1.2rem;
+   font-weight: 400;
+   font-family: 'Quicksand', sans-serif;
+}
+.history .info{
+    width: 60%;
+}
+.history .img{
+    width: 40%;
+}
+.history .img img{
+    border-radius: 20px;
+   height: 350px;
+   box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.349);
+
+}
+/* about shri ram */
+
+.aboutMandir{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 3em;
+    color: white;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.aboutMandir h3{
+   font-size: 3.5rem;
+   font-weight: 700;
+   font-family: 'Quicksand', sans-serif;
+}
+.aboutMandir ul li{
+   font-size: 1.2rem;
+   font-weight: 400;
+   font-family: 'Quicksand', sans-serif;
+   font-weight: 400;
+   font-family: 'Quicksand', sans-serif;
+}
+.aboutMandir .info{
+    width: 60%;
+}
+.aboutMandir .img{
+    width: 40%;
+}
+.aboutMandir .img img{
+    border-radius: 20px;
+    height: 350px;
+    box-shadow: -10px 10px 20px 10px rgba(0, 0, 0, 0.349);
+
+
+}
+/* about ram */
+
+.aboutRam{
+    display: flex;
+    gap: 6em;
+    color: white;
+    align-items: center;
+}
+.aboutRam h3{
+   font-size: 3.5rem;
+   font-weight: 700;
+   font-family: 'Quicksand', sans-serif;
+}
+.aboutRam ul li{
+   font-size: 1.2rem;
+   font-weight: 400;
+   font-family: 'Quicksand', sans-serif;
+}
+.aboutRam .info{
+    width: 60%;
+}
+.aboutRam .img{
+    width: 40%;
+}
+.aboutRam .img img{
+    border-radius: 20px;
+    height: 350px;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.349);
+}
+
+/* ##################################################################### */
+/* ##################################################################### */
+/* ##################################################################### */
+/* media quaries for resposiveness */
+
+@media only screen and (max-width: 440px) {
+
+    /* navbar--------- */
+    .navbar img{
+        height: 60px;
+    }
+    .navbarBtn a{
+       padding: 5px 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    box-shadow: 5px 5px 20px 10px rgba(243, 100, 100, 0.349);
+    
+    }
+    /* hero---------- */
+
+    .heroPageInfo h2{
+        font-size: 1.3em;
+        font-weight: bold;
+        line-height: 35px;
+        text-align: center;
+    }
+    .heroPageInfo p{
+        font-size: 0.8em;
+        font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    }
+    .heroPage a{
+        font-size: 1em;
+    font-weight: bold;
+            padding:8px 7px;
+        box-shadow: 5px 5px 20px 10px rgba(243, 100, 100, 0.349);
+    
+    }
+/* all data */
+.allData{
+    margin-top: -80px;
+}
+
+
+    /* look vidio----- */
+
+    .video-container p{
+        font-size: 1.1rem;
+        font-weight: 400;    
+    margin-bottom: 50px;
+    /* padding-top: -1em; */
+    
+    }
+    .video-container p span{
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: #b2420a;    
+    }
+    
+      .vidio {
+        width: 350px;
+        height: 270px;
+    } 
+
+    /* section --history */
+    .history{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding-top: 2rem;
+        justify-content: center;
+        
+    }
+    .history .img{
+        width: 100%;
+        
+    }
+    .history .img img{
+       height: 250px;
+    
+    }
+    .history .info{
+        width: 100%;
+    }
+    .history h3{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+     }
+    .history p{
+        font-size: 0.9em;
+     }
+
+     /* about mandir--------- */
+
+     .aboutMandir{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        padding-top: 5rem;
+        justify-content: center;
+        margin-top: -10em;
+
+    }
+    .aboutMandir .img{
+        width: 100%;
+        
+    }
+    .aboutMandir .img img{
+       height: 250px;
+    
+    }
+    .aboutMandir .info{
+        width: 100%;
+    }
+    .aboutMandir h3{
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+     }
+     .aboutMandir ul li{
+        font-size: 0.9em;
+     }
+/* about shri ram */
+.aboutRam{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-top: 5rem;
+    justify-content: center;
+    margin-top: -10em;
+
+}
+.aboutRam .img{
+    width: 100%;
+    
+}
+.aboutRam .img img{
+   height: 230px;
+
+}
+.aboutRam .info{
+    width: 100%;
+}
+.aboutRam h3{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+ }
+ .aboutRam ul li{
+    font-size: 0.9em;
+ }
+}
