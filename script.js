@@ -19,7 +19,7 @@ function countdown() {
       const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
 
       // Display the countdown
-      let finalTime = `Remaining time - ${days} days, ${hours} hour, ${minutes} minutes, ${seconds} seconds`;
+      let finalTime = `Remaining time - ${minutes} minutes, ${seconds} seconds`;
       mainP.textContent = finalTime;
     } else {
       // Display a message when the countdown reaches zero
