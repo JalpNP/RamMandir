@@ -23,7 +23,7 @@ function countdown() {
       mainP.textContent = finalTime;
     } else {
       // Display a message when the countdown reaches zero
-      mainP.textContent = "Expired";
+      mainP.textContent = "Click On Live Darshan It is Live Now!";
       clearInterval(countdownInterval);
     }
   }
